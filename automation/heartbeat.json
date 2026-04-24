@@ -1,0 +1,25 @@
+{
+  "status": "up",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "service": "frontend-app",
+  "version": "1.2.3",
+  "environment": "production",
+  "dependencies": {
+    "api": {
+      "status": "up",
+      "response_time_ms": 25
+    },
+    "database": {
+      "status": "up"
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage_mb": 256,
+    "active_users": 1234
+  },
+  "build_info": {
+    "commit_hash": "a1b2c3d4e5f6",
+    "build_date": "2024-10-26T18:00:00Z"
+  }
+}
